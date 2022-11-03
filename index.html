@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+
+ <header class="header">
+ <h1 id="title">Ice Cream Survey</h1>
+ </header>
+  
+ <body>
+  <p id="description">Choose your favorite ice cream flavor to help us improve our selection!!</p>
+   
+    <form id="survey-form">
+        <div class="form-group">
+          
+        <label id="name-label" for="name">Name</label>
+        <input
+             type="text"
+             name="name"
+             id="name"
+             class="form-control"
+             placeholder="Your  Name"required/>   
+  <label id="email-label" for="email">Email</label>
+  <input
+         type="email"
+         name="email"
+         id="email"
+         class="form-control"
+         placeholder="Your Email"required/>   
+  <label id="number-label" for="number">Age(optional)</label>
+  <input
+         type="number"
+         name="number"
+         id="number"
+         class="form-control"
+         min="0"
+         max="100"
+         placeholder="Your Age"/>
+     
+   <label id="gender-label" for="gender">Gender(optional)</label>
+   <input
+          type="text"
+          name="gender"
+          id="gender"
+          class="form-control"
+          placeholder="Gender"/>
+       
+      <br> 
+
+  <label for="dropdown" id="model" style="width: 95vw;"> How often do you eat ice cream </label> 
+      <select id="dropdown" name="habits" class="form-control" required>
+        <option value="daily">Once a day</option>
+        <option value="once">Once a week</option>
+        <option value="twice">Twice a week</option>
+        <option value="three">Three or more times a week</option>
+        <option value="never">Never</option>
+  </select>
+  <br>   
+<label for="radio" id="favorite" style="width: 90vw;"> Select favorite ice cream flavor </label>
+<br>
+   
+  <label>
+    <input
+           name="user-favorite"
+           value="chocolate"
+           type="radio"
+           class="input-radio"
+           checked/>Chocolate</label>
+  <br>
+  <label>
+    <input
+           name="user-favorite"
+           value="vanilla"
+           type="radio"
+           class="input-radio"/>
+           Vanilla</label>
+   <br>
+  <label>
+    <input
+           name="user-favorite"
+           value="strawberry"
+           type="radio"
+           class="input-radio"/>
+           Strawberry</label>
+   <br>
+  <label>
+    <input
+           name="user-favorite"
+           value="mint"
+           type="radio"
+           class="input-radio"/>
+           Mint</label>
+   <br>
+  <input
+           name="user-favorite"
+           value="peanut-butter-fudge"
+           type="radio"
+           class="input-radio"/>
+           Peanut Butter Fudge</label>
+        </div>
+ <br>
+   <label for="checkbox" id="add_flavor" style="width: 95vw;"> Select flavor(s) you would like to see added</label>     
+   
+   <span class="clue">(Check all that apply)</span>
+    <label>
+    <input
+           name="prefer"
+           value="peppermint"
+           type="checkbox"
+           class="input-checkbox"
+           />Peppermint</label>
+   <input
+           name="prefer"
+           value="rocky-road"
+           type="checkbox"
+           class="input-checkbox"
+          />Rocky Road</label>
+   <input
+           name="prefer"
+           value="cookie-dough"
+           type="checkbox"
+           class="input-checkbox"
+           />Cookie Dough</label>
+     <input
+           name="prefer"
+           value="salted-caramel-almond"
+           type="checkbox"
+           class="input-checkbox"
+           />Salted Caramel Almond</label>
+   <input
+           name="prefer"
+           value="banana"
+           type="checkbox"
+           class="input-checkbox"
+           />Banana</label>
+       <input
+           name="prefer"
+           value="black-cherry"
+           type="checkbox"
+           class="input-checkbox"
+           />Black Cherry</label>
+ <input
+           name="prefer"
+           value="butterscotch"
+           type="checkbox"
+           class="input-checkbox"
+           />Butterscotch</label>
+<br>
+ <input
+           name="prefer"
+           value="moose-tracks"
+           type="checkbox"
+           class="input-checkbox"
+           />Moose Tracks</label>
+<br><br>
+<label id="textarea">Additional suggestions: </label>
+<br>
+<textarea id="textarea" name"instructions" rows="4" cols="59.5">
+</textarea>
+<br><br>
+
+  <button type="submit" id="submit" class="submit-button">
+    <b>Click here and Change the world!</b></button>
+</div>
+</form>
+</div>
+</html>
+
+
+           
+        
